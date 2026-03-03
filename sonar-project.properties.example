@@ -1,0 +1,22 @@
+# Valores de ejemplo - copia este archivo como sonar-project.properties.local si necesitas override local
+# No commitees el archivo .local ya que puede contener información sensible
+
+sonar.projectKey=chapi-integration
+sonar.organization=your-organization-key
+
+sonar.projectName=Chapi Integration
+sonar.projectVersion=1.0.0
+
+sonar.sources=src/main/java
+sonar.tests=src/test/java
+sonar.java.binaries=target/classes
+sonar.java.test.binaries=target/test-classes
+
+sonar.java.source=21
+sonar.java.target=21
+
+sonar.exclusions=**/target/**,**/*.xml,**/*.html,**/*.css
+sonar.test.inclusions=**/*Test.java,**/*Tests.java
+
+sonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
+sonar.sourceEncoding=UTF-8
