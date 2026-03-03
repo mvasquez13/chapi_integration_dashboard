@@ -1,18 +1,14 @@
 # ⚠️ Vulnerabilidades Intencionales para Testing de SonarCloud
 
-## ✅ ESTADO: VULNERABILIDADES REMOVIDAS
+## 🚨 ESTADO: VULNERABILIDADES AGREGADAS
 
-**Fecha de remoción:** 2 de Marzo, 2026
+**Fecha de agregación:** 2 de Marzo, 2026
 
-Este documento explica las vulnerabilidades que fueron agregadas **temporalmente** al proyecto para demostrar las capacidades de detección de SonarCloud.
+Este documento explica las vulnerabilidades agregadas **intencionalmente** al proyecto para demostrar las capacidades de detección de SonarCloud.
 
-**Las vulnerabilidades han sido ELIMINADAS del código.**
+**ADVERTENCIA: NO USAR EN PRODUCCIÓN**
 
----
-
-## 🚨 ADVERTENCIA (Histórico)
-
-Las siguientes vulnerabilidades fueron agregadas y posteriormente removidas con fines educativos.
+Las siguientes vulnerabilidades están presentes en el código actual con fines educativos.
 
 ---
 

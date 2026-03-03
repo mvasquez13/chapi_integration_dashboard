@@ -72,6 +72,14 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- VULNERABILIDAD INTENCIONAL: Dependencia con CVE conocido -->
+        <!-- commons-collections 3.2.1 tiene CVE-2015-6420 (Deserialization vulnerability) -->
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+
         <!-- JaCoCo for code coverage -->
         <dependency>
             <groupId>org.jacoco</groupId>
