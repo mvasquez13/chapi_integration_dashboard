@@ -12,7 +12,7 @@ services:
       - SONAR_TOKEN=${SONAR_TOKEN}
       - SONAR_HOST_URL=https://sonarcloud.io
       - SONAR_ORGANIZATION=marco-vasquez-l
-      - SONAR_PROJECT_KEY=chapi-integration
+      - SONAR_PROJECT_KEY=mvasquez13_chapi_integration_dashboard
     command: >
       sh -c "
       echo '🔍 Iniciando análisis de SonarCloud...' &&
@@ -22,13 +22,13 @@ services:
       echo '' &&
       echo '🚀 Ejecutando análisis de SonarCloud...' &&
       mvn sonar:sonar \
-        -Dsonar.projectKey=chapi-integration \
+        -Dsonar.projectKey=mvasquez13_chapi_integration_dashboard \
         -Dsonar.organization=marco-vasquez-l \
         -Dsonar.host.url=https://sonarcloud.io \
         -Dsonar.token=$SONAR_TOKEN &&
       echo '' &&
       echo '✅ Análisis completado exitosamente!' &&
-      echo '🌐 Revisa los resultados en: https://sonarcloud.io/dashboard?id=chapi-integration'
+      echo '🌐 Revisa los resultados en: https://sonarcloud.io/dashboard?id=mvasquez13_chapi_integration_dashboard'
       "
     networks:
       - sonar-network

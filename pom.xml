@@ -25,6 +25,7 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <sonar.projectKey>mvasquez13_chapi_integration_dashboard</sonar.projectKey>
         <sonar.organization>marco-vasquez-l</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <jacoco.version>0.8.11</jacoco.version>
@@ -69,14 +70,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-
-        <!-- VULNERABILIDAD INTENCIONAL: Dependencia con CVE conocido -->
-        <!-- commons-collections 3.2.1 tiene CVE-2015-6420 (Deserialization vulnerability) -->
-        <dependency>
-            <groupId>commons-collections</groupId>
-            <artifactId>commons-collections</artifactId>
-            <version>3.2.1</version>
         </dependency>
 
         <!-- JaCoCo for code coverage -->

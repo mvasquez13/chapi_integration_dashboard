@@ -30,7 +30,7 @@ fi
 echo ""
 echo "📋 Configuración:"
 echo "   Organization: marco-vasquez-l"
-echo "   Project Key:  chapi-integration"
+echo "   Project Key:  mvasquez13_chapi_integration_dashboard"
 echo "   Host URL:     https://sonarcloud.io"
 echo ""
 
@@ -61,10 +61,10 @@ if [ $EXIT_CODE -eq 0 ]; then
     echo "════════════════════════════════════════════════════════"
     echo ""
     echo "🌐 Ver resultados en:"
-    echo "   https://sonarcloud.io/dashboard?id=chapi-integration"
+    echo "   https://sonarcloud.io/dashboard?id=mvasquez13_chapi_integration_dashboard"
     echo ""
     echo "📊 Dashboard del proyecto:"
-    echo "   https://sonarcloud.io/project/overview?id=chapi-integration"
+    echo "   https://sonarcloud.io/project/overview?id=mvasquez13_chapi_integration_dashboard"
     echo ""
 else
     echo ""

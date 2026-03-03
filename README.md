@@ -2,10 +2,10 @@
 
 Dashboard minimalista de indicadores construido con Java 21 y Spring Boot.
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=chapi-integration&metric=alert_status)](https://sonarcloud.io/dashboard?id=chapi-integration)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=chapi-integration&metric=coverage)](https://sonarcloud.io/dashboard?id=chapi-integration)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=chapi-integration&metric=bugs)](https://sonarcloud.io/dashboard?id=chapi-integration)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=chapi-integration&metric=code_smells)](https://sonarcloud.io/dashboard?id=chapi-integration)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mvasquez13_chapi_integration_dashboard&metric=alert_status)](https://sonarcloud.io/dashboard?id=mvasquez13_chapi_integration_dashboard)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=mvasquez13_chapi_integration_dashboard&metric=coverage)](https://sonarcloud.io/dashboard?id=mvasquez13_chapi_integration_dashboard)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=mvasquez13_chapi_integration_dashboard&metric=bugs)](https://sonarcloud.io/dashboard?id=mvasquez13_chapi_integration_dashboard)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=mvasquez13_chapi_integration_dashboard&metric=code_smells)](https://sonarcloud.io/dashboard?id=mvasquez13_chapi_integration_dashboard)
 
 ## 🚀 Características
 
@@ -146,7 +146,7 @@ mvn clean verify sonar:sonar \
 
 ### Ver resultados:
 ```
-https://sonarcloud.io/dashboard?id=chapi-integration
+https://sonarcloud.io/dashboard?id=mvasquez13_chapi_integration_dashboard
 ```
 
 **📖 Guía completa de configuración:** Ver [SONARCLOUD.md](SONARCLOUD.md)

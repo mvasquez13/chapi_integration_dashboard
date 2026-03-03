@@ -31,7 +31,7 @@ fi
 echo ""
 echo "🚀 Ejecutando análisis de SonarCloud..."
 mvn sonar:sonar \
-  -Dsonar.projectKey=chapi-integration \
+  -Dsonar.projectKey=mvasquez13_chapi_integration_dashboard \
   -Dsonar.organization=marco-vasquez-l \
   -Dsonar.host.url=https://sonarcloud.io \
   -Dsonar.token=$SONAR_TOKEN
@@ -41,7 +41,7 @@ if [ $? -eq 0 ]; then
     echo "✅ Análisis completado exitosamente!"
     echo ""
     echo "🌐 Revisa los resultados en:"
-    echo "   https://sonarcloud.io/dashboard?id=chapi-integration"
+    echo "   https://sonarcloud.io/dashboard?id=mvasquez13_chapi_integration_dashboard"
 else
     echo ""
     echo "❌ El análisis falló. Revisa los logs arriba."
